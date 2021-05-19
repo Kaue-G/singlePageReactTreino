@@ -1,0 +1,21 @@
+.logo{
+    float: left;
+    padding: 15px 0 15px 10%;
+}
+
+.logo img{
+    width: 8rem; 
+}
+
+@media screen and (max-width: 768px) {
+    .logo{
+        position: absolute;
+        float: none !important;
+        padding: 10px 5% !important;
+        top: 0;
+        left: 1%;
+    }
+    .logo img{
+        width: 3rem !important;
+    }
+}

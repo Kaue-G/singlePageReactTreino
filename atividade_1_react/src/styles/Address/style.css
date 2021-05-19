@@ -1,0 +1,36 @@
+.address{    
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px 10% 10px 20px;
+}
+
+.address img{    
+    float: left;
+    width: 2rem;
+    height: 2rem;
+    margin-top: 2px;
+}
+
+.address p{
+    line-height: 35px;
+    text-align: center;
+    padding-left: 10px;
+}
+
+.address strong{
+    color: #49C858;
+    font-size: 24px;
+}
+
+@media screen and (max-width: 768px) {
+    .address{
+        order: 3;
+        background: #49C858;
+        color: #fff;
+
+        justify-content: center !important;
+    }
+    .address strong{
+        color: #fff !important;
+    }
+}
